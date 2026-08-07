@@ -25,6 +25,9 @@ void insert1(node*&head,int value){
 }
 
 void reverse(node*&head){
+    if(head==nullptr){
+        return;
+    }
 stack<int> s;
 node*temp=head;
 while(temp!=nullptr){
