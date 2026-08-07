@@ -12,7 +12,7 @@ for(int i=0;i<n;i++){
    if(sum==k){
     len=max(len,i+1);
    }
-   int x=len-k;
+   int x=sum-k;
    if(m.find(x)!=m.end()){
     int len2=i-m[x];
     len=max(len,len2);
