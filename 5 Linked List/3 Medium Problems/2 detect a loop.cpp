@@ -29,21 +29,18 @@ void print(node*head){
 }
 
 bool has_loop(node*head){
-    if(head==nullptr){
-        cout<<"List is empty stupid"<<endl;
-        return false;
-    }
-    map<node*,int> m;
-    node*temp=head;
-    while(temp!=nullptr){
-        if(m.find(temp)!=m.end()){
+    node*slow=head;
+    node*fast=head;
+    while(fast!=nullptr && fast->next!=nullptr){
+        slow=slow->next;
+        fast=fast->next->next;
+        if(slow==fast){
             return true;
         }
-        m[temp]=1;
-        temp=temp->next;
     }
     return false;
 }
+
 int main() {
     node*head=nullptr;
     insert1(head,60);
