@@ -1,8 +1,12 @@
+output/
 0 Basic maths/output/
 1 Hashing/output/
 3 Sorting/output/
 4 Array Problems/output/
-4 Array Problems\9 longest subarray's length of sum k\output/
-5 Linked List\1 Singly LL\output/
-5 Linked List\2 Doubly LL\output/
-5 Linked List\3 Medium Problems\output/
+4 Array Problems/9 longest subarray's length of sum k/output/
+5 Linked List/1 Singly LL\output/
+5 Linked List/2 Doubly LL\output/
+5 Linked List/3 Medium Problems\output/
+6 Binary Search/output/
+My syllabus/1 List of list/output/
+My syllabus/2 Multi LL/output/
